@@ -18,6 +18,7 @@ Generate a report of your online activity over the last week
   1. Authorize Twitter
       1. Set up a [Twitter API client](https://developer.twitter.com/en/docs/basics/getting-started) and set the key and secret in the `getTwitterService` method.
       1. Open the web app to authorize Twitter: **Publish > Deploy as web app...** and click "Test web app for your latest code."
+  1. View the report via the web app: **Publish > Deploy as web app...** and click "Test web app for your latest code."
 
 ### Send a weekly email
 
@@ -33,6 +34,6 @@ Generate a report of your online activity over the last week
   
 ## Known issues (pull requests welcome!)
 
-  * Google Photos won't display after a short time (a limitation of Google Photos API)
+  * Google Photos won't display after a short time (a limitation of Google Photos API). View the report via the web app as a workaround.
   * Improve display of Tweets (embed images and videos, copy entire threads)
   * Kindle highlights must be in the inbox
